@@ -24,3 +24,10 @@ The tested architectures such as ResNet34, VGG16, EfficientNet-b0 and EfficientN
 
 for dataset you can click link https://docs.google.com/forms/d/e/1FAIpQLSefnOsrmCGL6Ka1XolqY_Iw-pnmuVHqztmzVxtLIWqmVDnMwQ/viewform
 and don't publish in any other website!
+
+
+![116](https://user-images.githubusercontent.com/72331775/230332258-47e5a1da-b212-468e-a2cf-3c136057b14b.jpg)
+![118](https://user-images.githubusercontent.com/72331775/230332267-411169c0-2ffb-4102-b153-a08d875fd401.jpg)
+![50](https://user-images.githubusercontent.com/72331775/230332274-0fa44258-aee8-401a-87f4-daeb393600fc.jpg)
+![107](https://user-images.githubusercontent.com/72331775/230332280-3474e733-1838-4561-9440-6b6d967c6b73.jpg)
+
