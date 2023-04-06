@@ -22,5 +22,5 @@ The tested architectures such as ResNet34, VGG16, EfficientNet-b0 and EfficientN
 | Before Rezise  | 170    | 600 x 450  |
 | After Resize   | 170    | 224 x 224  |
 
-for dataset you can click link https://drive.google.com/drive/folders/1rmsmRnKkQv9e9Qin4LEfYaG5BVLwK3L3
-don't publish in any other website!
+for dataset you can click link https://docs.google.com/forms/d/e/1FAIpQLSefnOsrmCGL6Ka1XolqY_Iw-pnmuVHqztmzVxtLIWqmVDnMwQ/viewform
+and don't publish in any other website!
