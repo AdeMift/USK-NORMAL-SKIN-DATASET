@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html style="font-size: 16px;">
+
+  <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta charset="utf-8">
+      <meta name="keywords" content="Classification using Deep Learning, Problem &amp;amp; Motivation, Method, Do you want to try our dataset?, Details, All Image and Categories, Code, Contact">
+      <meta name="description" content="">
+      <meta name="page_type" content="np-template-header-footer-from-plugin">
+      <title>USK-NORMAL SKIN DATASET</title>
+      <link rel="stylesheet" href="nicepage.css" media="screen">
+      <link rel="stylesheet" href="styles.css" media="screen">
+      <script class="u-script" type="text/javascript" src="jquery-1.9.1.min.js" defer=""></script>
+      <script class="u-script" type="text/javascript" src="nicepage.js" defer=""></script>
+      <meta name="generator" content="Nicepage 4.3.0, nicepage.com">
+      <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i">
+      
+      <script type="application/ld+json">{
+      "@context": "http://schema.org",
+      "@type": "Organization",
+      "name": "",
+      "logo": "images/logo.jpg"
+    }</script>
+    <meta name="theme-color" content="#478ac9">
+    <meta property="og:title" content="USK-NORMAL SKIN">
+    <meta property="og:type" content="website">
+  </head>
+
+  <body class="u-body">
+    
+    <header class="u-clearfix u-header u-header" id="sec-1396">
+      <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
+        <a class="u-image u-logo u-image-1" data-image-width="412" data-image-height="88">
+          <img src="images/logo.jpg" class="u-logo-image u-logo-image-1">
+        </a>
+      </div>
+    </header>
+    
+    <section class="u-align-left u-clearfix u-image u-shading u-section-1" 
+    src="" id="sec-2595" 
+    data-image-width="1620" 
+    data-image-height="1080">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <h1 class="u-text u-title u-text-1" 
+        spellcheck="false">USK-NORMAL SKIN DATASET: A Dataset Consisting of Indications of Normal Skin</h1>
+        
+        <p class="u-large-text u-text u-text-variant u-text-2" 
+        spellcheck="false">
+        The skin is one of the parts that protects the human body, besides that it is the heaviest and widest 
+        part of the body up to 15% of the human body weight with an area of 1.50 to 1.75m2.The classification 
+        used for skin image recognition is to distinguish between normal skin images and diseased skin images in 
+        the Basal Cell Carcinoma class using the ISIC 2018 dataset on the website https://challenge.isic-archive.com/data/#2018. 
+        It's just that due to the unavailability of normal skin datasets (healthy skin) as a comparison, the dataset was created by taking skin objects directly 
+        on volunteers. After conducting the research, the test results obtained were that the model built was 
+        able to distinguish between normal skin classes and Basal Cell Carcinoma (sick skin) well, 
+        where the accuracy of the CLAHE image results was superior compared to using the original image. 
+        Native image yield for architecture VGG-16 is 98.3%, ResNet-34 is 97.5%, EfficientNet-B0 is 98.2% and 
+        EfficientNet-B7 is 99.7%. Whereas in the CLAHE image, a higher accuracy value is obtained, namely for the 
+        VGG-16 architecture of 100%, ResNet-34 of 99.5%, EfficientNet-B0 of 100% and EfficientNet-B7 of 100%.
+        <br>
+        
+        <br>We also introduce a novel dataset called <b>USK-NORMAL SKIN</b> which comes from 
+        taking data from willing volunteers aged 21-60 years on the face, back of the hands 
+        and forearms. Our goal is to address the unavailability of publications regarding normal 
+        skin datasets or healthy skin classes. This image data will be collected manually by taking 
+        pictures through a digital camera and collecting 170 images from 50 people, 25 male and 25 female. 
+        This dataset can be used for two tasks, namely classification and detection for normal skin classes 
+        that may be tested with diseased skin classes.
+        </p>
+      </div>
+      
+    
+    
+    
+    </section>
+    
+    <section class="u-clearfix u-section-2" id="sec-6b54">
+      <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
+        <div class="fr-view u-align-center u-clearfix u-rich-text u-text u-text-1">
+          <h1 style="text-align: center;">
+            <span style="font-size: 2.25rem; font-weight: 700;">Problem &amp; Motivation</span>
+          </h1>
+          
+          <p style="text-align: center;">
+            <span style="line-height: 2.0;">
+              <span style="font-size: 1.125rem;">
+                According to a report provided by the American Cancer Society, 
+                BCC is the most common type of skin disease in the United States. 
+                In Indonesia, BCC skin disease has been diagnosed since 1989 according 
+                to the Cancer Registration Agency of the Association of Indonesian Pathologists, 
+                namely 39.93% of 1,530 skin cancers in Indonesia. For this reason, a dataset of 
+                diseased and normal skin is required for the diagnosis made. It's just that, 
+                the skin image dataset that is published most often is the dataset for the sick class only. 
+                Meanwhile, datasets in normal or healthy classes are very difficult to find. 
+                In fact, if the dataset is widely published, research that will test by comparison 
+                of classes whether the skin is healthy or diseased will increase and facilitate the diagnosis process.
+              </span>
+                <img src="images/foto.jpg" align="center" style="width: 392px;" 
+                class="fr-dib fr-fic" width="402">
+                <span style="font-size: 1.125rem;">
+                  To classify normal and diseased skin, we use a deep learning approach. 
+                  To achieve the best results, several CNN architectures such as ResNet34, 
+                  VGG16, EfficientNet-b0, and EfficientNet-b0 are used to analyze the results. 
+                  CNN is commonly used in the image processing and computer vision fields to recognize 
+                  objects in images, classify image categories, and solve machine vision-related problems.</span>
+              </span>
+            </p>
+          </div>
+        </div>
+    </section>
+      
+    <section class="u-clearfix u-section-3" id="sec-1e07">
+      <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
+        <div class="fr-view u-align-center u-clearfix u-rich-text u-text u-text-1">
+          <h1 style="text-align: center;">
+            <span style="font-weight: 700; font-size: 2.25rem;">Method</span>
+          </h1>
+            <p style="text-align: center;">
+              <span style="line-height: 2.0;">
+                <span style="font-size: 1.125rem;">The tested architectures such as ResNet34, VGG16, 
+                EfficientNet-b0 and EfficientNet-b0 will be compared against each other. Each of these 
+                models has its own advantages in image classification. One thing these models have in common 
+                is that they are used for computer vision tasks, specifically the classification of images and objects. 
+                All of these models have proven successful in their tasks and are often used as benchmarks in computer 
+                vision research. The image size used has been modified to 224 x 224 pixels for all models tested from 
+                the original 600 x 450 pixels data.
+                </span>
+                <img src="images/arsi.png" align="center" style="width: 900px;" 
+                class="fr-dib fr-fic" width="402">
+              </span>
+            </p>
+        </div>
+      </div>
+    
+    </section>
+    
+    <section class="u-align-center u-clearfix u-image u-shading u-section-4" src="" id="sec-da31" data-image-width="1620" data-image-height="1080">
+      <div class="u-align-center u-clearfix u-sheet u-sheet-1">
+        <h2 class="u-text u-text-default u-text-1">Do you want to try our dataset?</h2>
+        <p class="u-text u-text-2">You can use our dataset and make experiment with it!</p>
+        <a href="https://forms.gle/rwDmELvFXuapJgjSA" 
+        class="u-btn u-button-style u-btn-1" 
+        target="_blank">browse here</a>
+      </div>
+    </section>
+      
+    <section class="u-align-left u-clearfix u-section-5" id="sec-5083">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <div class="fr-view u-clearfix u-rich-text u-text u-text-1">
+          <h1 style="text-align: left;">
+            <span style="font-weight: 700; font-size: 2.25rem;">Details</span>
+          </h1>
+          <p>
+            <span style="font-size: 1.125rem;">USK-Normal Skin Dataset is a one of public datasets that is 
+              open for everyone. For detailed information about the dataset, 
+              please see the technical report linked below.</span>
+          </p>
+          <ul>
+            <li style="text-align: left; font-size: 1.25rem;">Number of Categories: 1 categories</li>
+            <li style="font-size: 1.25rem;">Number of Images: 170 images</li>
+          </ul>
+          <p>
+            <br>
+          </p>
+        </div>
+      </div>
+    </section>
+      
+    <section class="u-align-center u-clearfix u-section-6" id="sec-7620">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <div class="u-table u-table-responsive u-table-1">
+          <table class="u-table-entity u-table-entity-1">
+            <colgroup>
+              <col width="33.3%">
+              <col width="33.3%">
+              <col width="33.400000000000006%">
+            </colgroup>
+            <thead class="u-black u-table-header u-table-header-1">
+              <tr style="height: 47px;">
+                <th class="u-border-1 u-border-black u-table-cell">Categories</th>
+                <th class="u-border-1 u-border-black u-table-cell">Total</th>
+                <th class="u-border-1 u-border-black u-table-cell" spellcheck="false">Dimensions</th>
+              </tr>
+            </thead>
+            <tbody class="u-table-body">
+              <tr style="height: 47px;">
+                <td class="u-border-1 u-border-grey-30 u-table-cell">Normal</td>
+                <td class="u-border-1 u-border-grey-30 u-table-cell">170</td>
+                <td class="u-border-1 u-border-grey-30 u-table-cell" spellcheck="false"> 224 x 224 pixels</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+      
+    <section class="u-align-center u-clearfix u-section-7" id="sec-3e67">
+      <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
+        <div class="u-expanded-width u-list u-list-1">
+          <div class="u-repeater u-repeater-1">
+
+            <div class="u-align-center u-container-style u-list-item u-repeater-item">
+              <div class="u-container-layout u-similar-container u-container-layout-1">
+                <img alt="" class="u-expanded-width u-image u-image-default u-image-1" data-image-width="256" data-image-height="256" src="images/50.jpg">
+                <h5 class="u-text u-text-1">Normal</h5>
+              </div>
+            </div>
+
+            <div class="u-align-center u-container-style u-list-item u-repeater-item">
+              <div class="u-container-layout u-similar-container u-container-layout-2">
+                <img alt="" class="u-expanded-width u-image u-image-default u-image-2" data-image-width="256" data-image-height="256" src="images/107.jpg">
+                <h5 class="u-text u-text-2">Normal</h5>
+              </div>
+            </div>
+
+            <div class="u-align-center u-container-style u-list-item u-repeater-item">
+              <div class="u-container-layout u-similar-container u-container-layout-3">
+                <img alt="" class="u-expanded-width u-image u-image-default u-image-3" data-image-width="256" data-image-height="256" src="images/116.jpg">
+                <h5 class="u-text u-text-3">Normal</h5>
+              </div>
+            </div>
+
+            <div class="u-align-center u-container-style u-list-item u-repeater-item">
+              <div class="u-container-layout u-similar-container u-container-layout-4">
+                <img alt="" class="u-expanded-width u-image u-image-default u-image-4" data-image-width="256" data-image-height="256" src="images/118.jpg">
+                <h5 class="u-text u-text-4">Normal</h5>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+    <section class="u-align-center u-clearfix u-section-10" id="sec-6f2a">
+      <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
+        <div class="u-container-style u-group u-group-1">
+          <div class="u-container-layout u-container-layout-1">
+            <h2 class="u-text u-text-default u-text-1">Contact</h2>
+            <p class="u-text u-text-2" spellcheck="false">You can contact 
+              <a>Ade Miftahul Jannah</a> 
+              via <a href="https://comvis.mystrikingly.com/" 
+              class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-palette-1-base u-btn-1" 
+              target="_blank">ComvisLab</a> 
+              or <a href="mailto:ademiftahul281@gmail.com" class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-palette-1-base u-btn-2">
+                E-mail</a> for question.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+      
+    <section class="u-clearfix u-grey-5 u-section-11" id="sec-9012">
+        <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
+          <h3 class="u-text u-text-1" spellcheck="false">Publications</h3>
+          <p class="u-text u-text-2">This is the following publications use our dataset. 
+            Please contact us if you are using our dataset and we will add your paper to the list.</p>
+        </div>
+    </section>
+      
+    <footer class="u-align-center-md u-align-center-sm u-align-center-xs u-clearfix u-footer" 
+      id="sec-a563">
+        <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
+          <a class="u-image u-logo u-image-1" data-image-width="412" data-image-height="88">
+            <img src="images/logo.jpg" class="u-logo-image u-logo-image-1">
+          </a>
+        </div>
+    </footer>
+  </body>
+</html>
